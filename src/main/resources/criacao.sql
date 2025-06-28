@@ -20,3 +20,10 @@ CREATE TABLE `seller` (
 
 SELECT * FROM SenacProjeto.department;
 SELECT * FROM SenacProjeto.seller;
+
+create table tarefa(
+id int primary key auto_increment,
+descricao varchar(250) not null,
+status varchar(20) not null,
+prazo date not null);
+select * from tarefa
