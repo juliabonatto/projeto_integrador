@@ -25,5 +25,5 @@ create table tarefa(
 id int primary key auto_increment,
 descricao varchar(250) not null,
 status varchar(20) not null,
-prazo date not null);
+prazo varchar(150) not null);
 select * from tarefa
